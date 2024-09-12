@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abaya Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffdeff;
+    color: #333;
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #604850;
+}
+
+/* Grid container */
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+/* Grid item */
+.gallery-item {
+    background-color: rgb(180, 154, 184);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(144, 101, 158, 0.2); 
+    transition: transform 0.3s ease; 
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05); 
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.gallery-item p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 768px) {
+    .gallery-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .gallery-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+    </style>
+</head>
+<body>
+        <h1>Koleksi Gallery Abaya</h1>
+
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="foto1.jpg" alt="Gambar 1">
+            <p>Abaya is beautiful, so make it look beautiful</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto2.jpg" alt="Gambar 2">
+            <p>Abaya makes a girl more graceful.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto3.jpg" alt="Gambar 3">
+            <p>Wear it with pride, and most of all wear it right</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto4.jpg" alt="Gambar 4">
+            <p>Be like a precious & rare diamond, be secretive</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto5.jpg" alt="Gambar 5">
+            <p>Abayas are that luxurious</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto6.jpg" alt="Gambar 6">
+            <p>Abayas that are elegant, polite and comfortable</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto7.jpg" alt="Gambar 7">
+            <p>The most beautiful abaya</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto8.jpg" alt="Gambar 8">
+            <p>Modesty comes in more than just our physical appearance</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto9.jpg" alt="Gambar 9">
+            <p>Abaya with modern style</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto10.jpg" alt="Gambar 10">
+            <p>Elegance and modesty in one</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto11.jpg" alt="Gambar 11">
+            <p>Graceful abaya style</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto12.jpg" alt="Gambar 12">
+            <p>Modern and elegant abaya</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto13.jpg" alt="Gambar 13">
+            <p>Stylish abaya with unique patterns</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto14.jpg" alt="Gambar 14">
+            <p>Simple yet sophisticated abaya</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto15.jpg" alt="Gambar 14">
+            <p>Simple yet sophisticated abaya</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto16.jpg" alt="Gambar 8">
+            <p>Modesty comes in more than just our physical appearance</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto17.jpg" alt="Gambar 9">
+            <p>Abaya with modern style</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto18.jpg" alt="Gambar 10">
+            <p>Elegance and modesty in one</p>
+        </div>
+        </div>
+</body>
+</html>
